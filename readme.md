@@ -1,6 +1,6 @@
 ## This is my boilerplate/Generator/Starter Project
 
-## This is the first time I have done Webpack configuration all by myself.
+This is the first time I have done Webpack configuration all by myself.
 
 ## Features
 
