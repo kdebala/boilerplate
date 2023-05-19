@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   //
-  entry: './src/ts/index.ts',
+  entry: './src/index.ts',
 
   output: {
     filename: '[name]-[contenthash].js',
@@ -23,6 +23,10 @@ module.exports = {
         test: /\.(ts|tsx)$/i,
         loader: 'ts-loader',
         exclude: ['/node_modules'],
+      },
+         {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
